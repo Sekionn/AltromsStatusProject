@@ -1,0 +1,2 @@
+D:\Users\sjknu\Documents\GitHub\AltromsStatusProject\AltromsStatusProject\obj\Debug\altromsstatusproject.esproj.SuggestedBindingRedirects.cache
+D:\Users\sjknu\Documents\GitHub\AltromsStatusProject\AltromsStatusProject\obj\Debug\altromsstatusproject.esproj.CoreCompileInputs.cache
