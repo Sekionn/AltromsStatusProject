@@ -38,16 +38,14 @@ export default class App extends Component {
     }
 
     addMockData() {
-        const time = Date.UTC()
         const item = {
             id: 0,
             shelfOfOrigin: 1,
             barcode: "11111",
             amountCounted: 14,
-            date: time.toString()
         };
 
-        const response = fetch('api/Items', {
+        fetch('api/Items', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -55,7 +53,25 @@ export default class App extends Component {
             },
             body: JSON.stringify(item)
         })
-        console.log(response.json())
+    }
+
+    async createFile() {
+        fetch('api/Items/Export', {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+        }).then((data) => data.json()).then((data) => {
+            const element = document.createElement("a");
+            const file = new Blob([data],
+                { type: 'text/plain;charset=utf-8' });
+            element.href = URL.createObjectURL(file);
+            element.download = "Status.txt";
+            document.body.appendChild(element);
+            element.click();
+        })
+
     }
 
     render() {
@@ -67,8 +83,8 @@ export default class App extends Component {
                 <div id='contentContainer'>
                     <h1 id="tabelLabel" >Alle scannede stregkoder</h1>
                     {contents}
-                    <button id='exportButton'>Export</button>
                     <button onClick={this.addMockData}>Add mock data</button>
+                    <button id='exportButton' onClick={this.createFile}>Export</button>
                 </div>
                 
 
