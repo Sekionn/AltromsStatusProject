@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "altromsstatusproject", "AltromsStatusProject\altromsstatusproject.esproj", "{15209642-F241-491E-BDD5-DF7EE0ECE780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlstromsStatusProject-Backend", "AlstromsStatusProject-Backend\AlstromsStatusProject-Backend.csproj", "{2DC9B055-803C-4250-B289-73C0081FE279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15209642-F241-491E-BDD5-DF7EE0ECE780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15209642-F241-491E-BDD5-DF7EE0ECE780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15209642-F241-491E-BDD5-DF7EE0ECE780}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{15209642-F241-491E-BDD5-DF7EE0ECE780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15209642-F241-491E-BDD5-DF7EE0ECE780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15209642-F241-491E-BDD5-DF7EE0ECE780}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2DC9B055-803C-4250-B289-73C0081FE279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC9B055-803C-4250-B289-73C0081FE279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC9B055-803C-4250-B289-73C0081FE279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC9B055-803C-4250-B289-73C0081FE279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23A83BF0-6A5F-4C0F-9B80-ACD34F99040E}
+	EndGlobalSection
+EndGlobal
