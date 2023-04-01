@@ -10,20 +10,12 @@ namespace AlstromsStatusProject_Backend.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<ItemContext>>()))
             {
-                // Look for any movies.
+                // Look for any Items.
                 if (context.Items.Any())
                 {
                     return;   // DB has been seeded
                 }
-                context.Items.AddRange(
-                    new Item
-                    {
-                        Date = DateTime.Parse("1989-2-12").ToString(),
-                        Barcode = "Romantic Comedy",
-                        AmountCounted = 7,
-                        ShelfOfOrigin = 1
-                    }
-                );
+                
                 context.SaveChanges();
             }
         }
