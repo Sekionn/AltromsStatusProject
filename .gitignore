@@ -22,24 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.vs/AltromsStatusProject/DesignTimeBuild/.dtbcache.v2
+.vs/
 
-.vs/AltromsStatusProject/FileContentIndex/2b8f6b9b-8e77-410f-af2f-a43fcb66268c.vsidx
-
-.vs/AltromsStatusProject/FileContentIndex/32d4a6bd-426f-4719-959f-27df3151e447.vsidx
-
-.vs/AltromsStatusProject/FileContentIndex/5d911435-d91d-4130-8202-ded4a3c28ce4.vsidx
-
-.vs/AltromsStatusProject/FileContentIndex/63ffae03-ea3c-4e0a-b8ab-23fa4b5bee9e.vsidx
-
-.vs/AltromsStatusProject/FileContentIndex/9a68c1ff-d07b-47d4-83db-6994bff38c01.vsidx
-
-.vs/AltromsStatusProject/FileContentIndex/9e18110c-8579-4b69-bbf4-040413ebe996.vsidx
-
-.vs/AltromsStatusProject/FileContentIndex/b59c7ee5-a976-42b6-b29f-5914f4311bd8.vsidx
-
-.vs/AltromsStatusProject/FileContentIndex/b7e51b07-adc2-4a74-b50b-cc82feb98ccb.vsidx
-
-.vs/AltromsStatusProject/v17/.suo
-
-AlstromsStatusProject-Backend/bin/
+AlstromsStatusProject-Backend/bin/*
